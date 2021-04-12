@@ -1,4 +1,4 @@
-### Klaytn-API-Basic
+### Klaytn-API
 -------
 + 기본 헤더
   + Authorization (인증)
