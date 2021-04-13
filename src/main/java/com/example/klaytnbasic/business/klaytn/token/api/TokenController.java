@@ -14,6 +14,7 @@ public class TokenController {
 
     @GetMapping("/token/account/{address}")
     public String findTokenAddress(@PathVariable("address") String address){
+        System.out.println("findTokenAddress start");
         return tokenService.findToken(address);
     }
 }
