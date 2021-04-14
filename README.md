@@ -42,6 +42,7 @@ Rest API를 활용한 Klaytn Node 접근
   + KAS는 Basic HTTP Auth를 사용합니다. 모든 요청은 반드시 올바른 Authorization 헤더를 가져야 하며 KAS 사용자는 access key ID를 username으로, secret access key를 password로 사용하여 Basic Auth에 사용할 자격증명을 생성합니다.
   + Authorization
   + x-chain-id (cypress : 8217 or baobob : 1001)
+  + JSON-RPC API 조회 : https://ko.docs.klaytn.com/bapp/json-rpc/api-references/klay
 
 
 ### ㅇ TokenHistory API
