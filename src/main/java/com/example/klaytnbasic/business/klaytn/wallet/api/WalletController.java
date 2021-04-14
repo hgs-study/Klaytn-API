@@ -13,7 +13,6 @@ public class WalletController {
 
     @GetMapping("/createWallet")
     public String createWallet(){
-        System.out.println("createWallet start");
         return walletService.create();
     }
 

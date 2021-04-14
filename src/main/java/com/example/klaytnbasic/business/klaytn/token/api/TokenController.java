@@ -4,6 +4,7 @@ import com.example.klaytnbasic.business.klaytn.token.application.TokenService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -14,7 +15,10 @@ public class TokenController {
 
     @GetMapping("/token/account/{address}")
     public String findTokenAddress(@PathVariable("address") String address){
-        System.out.println("findTokenAddress start");
         return tokenService.findToken(address);
+    }
+    @PostMapping("/klay/balance/{address}")
+    public String klayBalance(@PathVariable("address") String address){
+        return tokenService.klayBalance(address);
     }
 }
