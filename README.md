@@ -68,3 +68,8 @@ Rest API를 활용한 Klaytn Node 접근
   #### Transaction
   + Transaction API : https://docs.klaytnapi.com/tutorial/wallet-transaction-api/wallet-transaction-klay /        https://refs.klaytnapi.com/ko/wallet/latest#operation/ValueTransferTransaction
   + 전송 API : https://wallet-api.klaytnapi.com/v2/tx/value (※ body에 submit 추가로 넣어줘야함)
+
+
+### ㅇ KAS 용어 & 개념 참고
+-------
+  + https://velog.io/@hyunjeongshub/Klaytn-API-Service-KAS
