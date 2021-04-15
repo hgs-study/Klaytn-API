@@ -73,3 +73,4 @@ Rest API를 활용한 Klaytn Node 접근
 ### ㅇ KAS 용어 & 개념 참고
 -------
   + https://velog.io/@hyunjeongshub/Klaytn-API-Service-KAS
+  + https://seung-hwan.tistory.com/m/63?category=971426
